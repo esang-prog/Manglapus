@@ -75,4 +75,23 @@ section {
   background-color: #ff69b4; /* darker pink on hover */
 }
 
+.button-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.nav-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  color: #fff;
+  cursor: pointer;
+}
+
+.nav-button:hover {
+  background-color: #3e8e41;
+}
 
